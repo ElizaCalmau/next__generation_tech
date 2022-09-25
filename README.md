@@ -3,4 +3,4 @@
 [unreleased]
 
 [released]
-- initial: create the project
+-1.0.0: create the project
