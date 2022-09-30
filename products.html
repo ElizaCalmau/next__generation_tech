@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--Header Container-->
+    <div class="navbar__wrapper">
+        <div class="navbar__logo" id="navbar__logo"><img src='./gem-svgrepo-com.svg'/><a href="./index.html">Next</a></div>
+        <div class="navbar__toggle" id="mobile__menu">
+            <span class="bars"></span>
+            <span class="bars"></span>
+            <span class="bars"></span>
+        </div>
+        <div class="navbar__menu">
+            <div class="navbar__item" id="home-page"><a href="./index.html">Home</a></div>
+            <div class="navbar__item" id="products-page"><a href="#products">Products</a></div>
+            <div class="navbar__item" ><a href="#" id="login-page">Log-in</a></div>
+            <div class="navbar__item" id="cart-page"><a href='./cart.html'><img src='./poducts_img/cart-svgrepo-com.svg'/></a></div>
+        </div>
+    </div>    
+
+    <!--Products Container-->
+    <div class="products" id="products">
+        <h1>VR Glasses</h1>
+    <div class="products__wrapper">
+        
+        <div class="product__card"> <!--1-->
+            <img src='./poducts_img/product10.jpg'/>
+            <div class="product__desc">
+                <h2>3D-Space </h2>
+                <p>300$</p>
+                <button><a href="#order">Add to cart</a></button>
+            </div>
+        </div>
+        <div class="product__card"> <!--2-->
+            <img src='./poducts_img/product16.jpg'/>
+            <div class="product__desc">
+                <h2>Mercury</h2>
+                <p>300$</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+        <div class="product__card"> <!--3-->
+            <img src='./poducts_img/product12.jpg'/>
+            <div class="product__desc">
+                <h2>Appolo</h2>
+                <p>280$</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+        <div class="product__card"> <!--4-->
+            <img src='./poducts_img/product4.jpg'/>
+            <div class="product__desc">
+                <h2>HD-1200</h2>
+                <p>450$</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+        <div class="product__card"> <!--5-->
+            <img src='./poducts_img/product8.jpg'/>
+            <div class="product__desc">
+                <h2>Another Reality</h2>
+                <p>700$</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+        <div class="product__card"> <!--6-->
+            <img src='./poducts_img/product7.jpg'/>
+            <div class="product__desc">
+                <h2>Ultra for two</h2>
+                <p>1000$</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!--Order section-->
+    <div class="order__page" id="login">
+        <div class="order__field">
+            <h3>Enter your data</h3>
+            <div class="input__wrapper">
+                <div class="input__item">
+                    <label for="fname">First Name:<br/></label>
+                    <input type="text" id="fname" name="fname"> 
+                </div>
+                <div class="input__item">
+                    <label for="e-mail">E-mail:<br/></label>
+                    <input type="email" id="e-mail" name="e-mail"> 
+                </div>
+                <div class="input__item">
+                    <label for="tel">Telephone: <br/></label>
+                    <input type="tel" id="tel" name="tel"> 
+                </div>
+                      <button class="login__btn"><a href="./cart.html">Confirm</a></button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./product.js"></script>
+</body>
+</html>
